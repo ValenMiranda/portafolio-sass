@@ -6,52 +6,113 @@
 	<!-- Zoom desde mobile-->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<!-- Compiled and minified CSS -->
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
-  	<!-- Font-->
-  	<!-- Archivo css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+	<!-- Material Icons-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Archivo css-->
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<!-- sidenav -->
-<nav class="transparent z-depth-0">
-    <div class="nav-wrapper">
-        <a href="#!" class="brand-logo"></a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu<!--person_pin--></i></a>
-        <ul class="side-nav" id="mobile-demo">
-            <li>
-                <div class="user-view">
-                    <div class="background">
-                        <img src="assets/img/Material-Design-Wallpapers.png" class="responsive-img">
-                    </div>
-                    <a href="#!user"><img class="circle responsive-img" src="assets/img/user-icon.jpg"></a>
-                    <a href="#!name"><span id="espacio-nombre" class="white-text name"></span></a>
-                    <a href="profile.html"><span class="white-text email">View profile</span></a>
-                </div>
-            </li>
-            <li><a href="index.html"><i class="material-icons">language</i>Home</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!" class="pink-text"><i class="pink-text material-icons">redeem</i>Free Rides</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!"><i class="material-icons">restore</i>Ride History</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!"><i class="material-icons">credit_card</i>Payment</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!"><i class="material-icons">live_help</i>Help</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!"><i class="material-icons">settings</i>Settings</a></li>
-            <li><div class="divider"></div></li>
-            <li><a href="#!" class="white-text drive"><i class="material-icons white-text">settings_input_svideo</i>Sign up to drive</a></li>
-        </ul>
-    </div>
-</nav>
-<!-- FIN SIDENAV -->
+	<!--<nav class="transparent z-depth-0">-->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Hestia Pro</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-cloud" aria-hidden="true"></i> Features<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="#!">1 minute setup</a></li>
+						<li><a href="#!">Fest Updates & Support</a></li>
+						<li><a href="#!">Live Customizer</a></li>
+						<li><a href="#!">Video Tutorials</a></li>
+						<li><a href="#!">Custom Backgrounds</a></li>
+						<li><a href="#!">Responsive Design</a></li>
+						<li><a href="#!">Optimized for Speed</a></li>
+						<li><a href="#!">Translation & RTL Ready</a></li>
+						<li><a href="#!">SEO Optimized</a></li>
+						<li><a href="#!">Drag-and-Drop Builder</a></li>
+						<li><a href="#!">WooCommerce Ready</a></li>
+					</ul>
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown2"><i class="fa fa-sort" aria-hidden="true"></i> Sections<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown2" class="dropdown-content">
+						<li><a href="#!">Features</a></li>
+						<li><a href="#!">About</a></li>
+						<li><a href="#!">Our team</a></li>
+						<li><a href="#!">Price</a></li>
+						<li><a href="#!">Testimonials</a></li>
+						<li><a href="#!">Subscribe</a></li>
+						<li><a href="#!">Blog</a></li>
+						<li><a href="#!">Contact</a></li>
+					</ul>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a class="waves-effect waves-light btn">Button</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-cloud" aria-hidden="true"></i> Features<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown1" class="dropdown-content">
+						<li><a href="#!">1 minute setup</a></li>
+						<li><a href="#!">Fest Updates & Support</a></li>
+						<li><a href="#!">Live Customizer</a></li>
+						<li><a href="#!">Video Tutorials</a></li>
+						<li><a href="#!">Custom Backgrounds</a></li>
+						<li><a href="#!">Responsive Design</a></li>
+						<li><a href="#!">Optimized for Speed</a></li>
+						<li><a href="#!">Translation & RTL Ready</a></li>
+						<li><a href="#!">SEO Optimized</a></li>
+						<li><a href="#!">Drag-and-Drop Builder</a></li>
+						<li><a href="#!">WooCommerce Ready</a></li>
+					</ul>
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown2"><i class="fa fa-sort" aria-hidden="true"></i> Sections<i class="material-icons right">arrow_drop_down</i></a></li>
+					<ul id="dropdown2" class="dropdown-content">
+						<li><a href="#!">Features</a></li>
+						<li><a href="#!">About</a></li>
+						<li><a href="#!">Our team</a></li>
+						<li><a href="#!">Price</a></li>
+						<li><a href="#!">Testimonials</a></li>
+						<li><a href="#!">Subscribe</a></li>
+						<li><a href="#!">Blog</a></li>
+						<li><a href="#!">Contact</a></li>
+					</ul>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a class="waves-effect waves-light btn">Button</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- FIN SIDENAV -->
+
+	<section class="slideshow">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<ul class="slider">
+						<li><img src="img/slider/img_slider_1.jpg" alt="" class="img-responsive"></li>
+						<li><img src="img/slider/img_slider_2.jpg" alt="" class="img-responsive"></li>
+					</ul>
+					<div class="left">
+						<span class="fa fa-chevron-left"></span>
+					</div>
+					<div class="right">
+						<span class="fa fa-chevron-right"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!-- Compiled and minified jQuery-->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<!-- Compiled and minified JavaScript -->
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
-  	<!-- Fontawesome -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+	<!-- Fontawesome -->
 	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<!-- Archivo js-->
+	<script src="js/main.js"></script>
 </body>
 </html>
