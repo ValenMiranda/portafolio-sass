@@ -1,6 +1,8 @@
 $(document).ready(function(){
+	//Activar nav
 	$(".button-collapse").sideNav();
-	
+
+	//configurar dropdown del nav
 	$('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,

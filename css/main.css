@@ -1,35 +1,12 @@
 * {
-  margin: 0 auto;
-  padding: 0; }
+  box-sizing: border-box; }
+
+nav {
+  z-index: 2222;
+  box-shadow: none; }
 
 .slideshow {
-  margin-top: 50px;
   width: 100%;
-  position: relative; }
-
-.slider li, ul {
-  width: 100%; }
-
-.slider li img {
-  width: 100%; }
-
-.left, .right {
-  position: absolute;
-  top: 40%;
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 40px;
-  cursor: pointer; }
-
-.left {
-  left: 20px; }
-
-.right {
-  right: 20px; }
-
-.left:hover {
-  color: rgba(255, 255, 255, 0.8); }
-
-.right:hover {
-  color: rgba(255, 255, 255, 0.8); }
+  z-index: -111; }
 
 /*# sourceMappingURL=main.css.map */
