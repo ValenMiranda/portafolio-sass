@@ -20,16 +20,8 @@ $(document).ready(function(){
 	var imageItem = $('.slider li').length; //Números de slides
 	var imagePos = 1;
 
-	//Agregando paginación (círculos debajo de la imagen)
-	for(var i = 1; i <= imageItem; i++){
-		$('.pagination').append('<li><i class="fa fa-circle"></i></li>');
-	}
-
 	$('.slider li').hide();//Ocultar slides
 	$('.slider li:first').show(); //Mostramos el primer slide
-
-	//Funcion next
-	$('.right span').click(nextSlider);
 
 	setInterval(function(){
 		nextSlider();
@@ -43,14 +35,6 @@ $(document).ready(function(){
 			imagePos++;
 		}
 
-		//estilos 
-		$('.pagination li').css({'color':'#858585'});
-		$('.pagination li:nth-child('+ imagePos +')').css({'color':'#2A68A4'});
-
-		$('.slider li').hide(); //ocultar slide
-		$('.slider li:nth-child('+ imagePos +')').fadeIn(); //mostrar slide seleccionado
-	};
-
 	$('.left span').click(function(){
 		if(imagePos <= 1){
 			imagePos = imageItem;
@@ -58,11 +42,7 @@ $(document).ready(function(){
 			imagePos--;
 		}
 
-		//estilos 
-		$('.pagination li').css({'color':'#858585'});
-		$('.pagination li:nth-child('+ imagePos +')').css({'color':'#2A68A4'});
-
-		$('.slider li').hide(); //ocultar slide
-		$('.slider li:nth-child('+ imagePos +')').fadeIn(); //mostrar slide seleccionado
 	});
+};
+
 });

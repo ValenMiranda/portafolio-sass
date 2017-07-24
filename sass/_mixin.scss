@@ -1,0 +1,19 @@
+@mixin diseno_parrafo(){
+	text-align: center;
+	color: $gris_claro;
+	padding: 10px;
+	font-size: 16px;
+}
+
+@mixin diseno_titulo(){
+	text-align: center;
+	color: $gris_oscuro;
+	font-size: 20px;
+}
+
+@mixin diseno_imagen_fondo{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}

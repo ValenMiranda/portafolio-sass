@@ -15,8 +15,7 @@
 <body>
 	<!-- sidenav -->
 	<div class="navbar-fixed">
-		<!--<nav class="transparent z-depth-0">-->
-		<nav>
+		<nav class="transparent z-depth-0" id="navegador">
 			<div class="nav-wrapper">
 				<a href="#!" class="brand-logo">Hestia Pro</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -46,13 +45,13 @@
 						<li><a href="#!">Blog</a></li>
 						<li><a href="#!">Contact</a></li>
 					</ul>
-					<li><a href="#">Shop</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a class="waves-effect waves-light btn pink"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Button</a></li>
+					<li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</a></li>
+					<li><a href="#"><i class="fa fa-circle-o-notch" aria-hidden="true"></i> Blog</a></li>
+					<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+					<li><a class="waves-effect waves-light btn pink"><i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY NOW</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-cloud" aria-hidden="true"></i> Features<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="fa fa-cloud" aria-hidden="true" ></i> Features<i class="material-icons right">arrow_drop_down</i></a></li>
 					<ul id="dropdown1" class="dropdown-content">
 						<li><a href="#!">1 minute setup</a></li>
 						<li><a href="#!">Fest Updates & Support</a></li>
@@ -77,32 +76,34 @@
 						<li><a href="#!">Blog</a></li>
 						<li><a href="#!">Contact</a></li>
 					</ul>
-					<li><a href="#">Shop</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a class="waves-effect waves-light btn pink"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Button</a></li>
+					<li><a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> Shop</a></li>
+					<li><a href="#"><i class="fa fa-circle-o-notch" aria-hidden="true"></i> Blog</a></li>
+					<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a></li>
+					<li><a class="waves-effect waves-light btn pink"><i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY NOW</a></li>
 				</ul>
 			</div>
 		</nav>
 	</div>
 	<!-- FIN SIDENAV -->
-<header>
+
 	<section class="slideshow">
 		<div class="container">
 			<div class="row">
 				<div class="col s12">
 					<ul class="slider">
-						<li><img src="img/slider/img_slider_1.jpg" alt="" class="img-responsive">
+						<li>
+						<img src="img/slider/img_slider_1.jpg" alt="" class="img-responsive fondo">
 							<div class="caption white-text center-align">
-								<h3>Simple & Awesome</h3>
-								<h5 class="light white-text text-lighten-3">Beautiful, elegantly coded.</h5>
+								<h1>Simple & Awesome</h3>
+								<h4 class="light white-text text-lighten-3">Beautiful, elegantly coded.</h4>
 								<a class="waves-effect waves-light btn pink">See More</a>
 							</div>
 						</li>
-						<li><img src="img/slider/img_slider_2.jpg" alt="" class="img-responsive">
+						<li>
+							<img src="img/slider/img_slider_2.jpg" alt="" class="img-responsive fondo">
 							<div class="caption white-text center-align">
-								<h3>Slik Material Design</h3>
-								<h5 class="light white-text text-lighten-3">Beautiful, elegantly coded, one-page WordPress Theme</h5>
+								<h1>Slik Material Design</h3>
+								<h4 class="light white-text text-lighten-3">Beautiful, elegantly coded, one-page WordPress Theme</h4>
 								<a class="waves-effect waves-light btn pink">See More</a>
 							</div>
 						</li>
@@ -111,7 +112,59 @@
 			</div>
 		</div>
 	</section>
-</header>
+
+	<section class="contenedor-grande z-depth-5">
+		<div class="contenedor-parrafos">
+			<div class="row">
+				<div class="col s12">
+					<div class="parrafo">
+						<p>Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 m4 tres-parrafos">
+						<i class="fa fa-th" aria-hidden="true"></i>
+						<h5 class="titulo-parrafo">Responsive</h5>
+						<p class="texto-parrafo">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col s12 m4 tres-parrafos">
+						<i class="fa fa-th-list" aria-hidden="true"></i>
+						<h5 class="titulo-parrafo">Quality</h5>
+						<p class="texto-parrafo">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+					<div class="col s12 m4 tres-parrafos">
+						<i class="fa fa-align-justify" aria-hidden="true"></i>
+						<h5 class="titulo-parrafo">Support</h5>
+						<p class="texto-parrafo">Lorem ipsum dolor sit amet elit do, consectetur adipiscing, sed eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="contenedor-city">
+			<div class="row">
+				<div class="col s12 m6">
+					<h1>Who are we now</h1>
+					<p>Ideate integrate food-truck agile ideate thinker-maker-doer user story intuitive hacker integrate workflow Steve Jobs. Steve Jobs pair programming food-truck big data long shadow SpaceTeam agile agile affordances. User centered design food-truck experiential minimum viable product human-centered design prototype viral quantitative vs. qualitative.</p>
+				</div>
+				<div class="col s12 m6 l6">
+					<img src="img/img_tablet.png" alt="tablet">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l12">
+					<iframe width="680" height="381" src="https://www.youtube.com/embed/pYOJNOJfJxU" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>	
+
+
+
+
+
+	</section>
+
+
 
 
 	<!-- Compiled and minified jQuery-->
